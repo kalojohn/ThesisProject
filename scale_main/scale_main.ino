@@ -1,13 +1,3 @@
-/**
- * Complete project details at https://RandomNerdTutorials.com/arduino-load-cell-hx711/
- *
- * HX711 library for Arduino - example file
- * https://github.com/bogde/HX711
- *
- * MIT License
- * (c) 2018 Bogdan Necula
- *
-**/
 // Includes
 #include <Arduino.h>
 #include "HX711.h"
@@ -37,7 +27,6 @@ void setup() {
 void loop() {
 
   if (button.getSingleDebouncedPress()){
-    // Serial.println("tare...");
     loadcell_tare();
   }
   

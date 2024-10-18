@@ -1,7 +1,4 @@
 #include <ESP8266WiFi.h>
-//#include <ESPAsyncWebServer.h>
-//#include <ArduinoJson.h>
-// #include <ESP_Mail_Client.h>
 #include <ESP8266HTTPClient.h>
 #include <WiFiClient.h>
 #include <UrlEncode.h>
@@ -11,10 +8,6 @@ bool distAlert = false;
 bool weightAlert = false;
 bool tempAlert = false;
 bool weightLossAlert = false;
-
-// Your WiFi credentials
-//const char* ssid = "ARROW-011daf";
-//const char* password = "kalogiannaras!!";
 
 // Your WiFi credentials
 const char* ssid = "iPhone-Panos";

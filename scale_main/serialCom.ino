@@ -3,9 +3,9 @@
 
 SoftwareSerial espSerial(SERIAL_TX, SERIAL_RX);
 
-float weight = 413.32;
-float temperature = 4.12;
-float distance = 3.19;
+float weight = 0;
+float temperature = 0;
+float distance = 0;
 String str;
 
 void serialCom_init()

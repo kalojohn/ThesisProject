@@ -7,8 +7,6 @@ HX711 scale;
 
 void scale_init()
 {
-  Serial.println("HX711 Demo");
-  Serial.println("Initializing the scale");
   scale.begin(LOADCELL_DOUT_PIN, LOADCELL_SCK_PIN);
 
   Serial.println("Before setting up the scale:");
@@ -49,14 +47,6 @@ void scale_init()
 void loadcell_tare()
 {
   scale.tare();
-}
-
-void loadcell_main()
-{
-  Serial.print("one reading:\t");
-  Serial.print(scale.get_units(), 1);
-  Serial.print("\t| average:\t");
-  Serial.println(scale.get_units(10), 5);
 }
 
 float getWeight()

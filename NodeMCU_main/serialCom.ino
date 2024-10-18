@@ -49,7 +49,6 @@ void parseInput(String input) {
 
     // Print values to verify
     Serial.print("weight: "); Serial.print(volume); Serial.println("ml");
-    //Serial.print("weightMax: "); Serial.print(maxVolume); Serial.println("ml");
     Serial.print("temperature: "); Serial.print(temperature); Serial.println("degrees C");
     Serial.print("distance: "); Serial.print(distance); Serial.println("cm");
   }
