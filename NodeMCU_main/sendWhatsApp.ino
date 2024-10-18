@@ -1,7 +1,7 @@
 // +international_country_code + phone number
 // Portugal +351, example: +351912345678
-String phoneNumber = "306944531881";
-String apiKey = "5752796";
+String phoneNumber = "306945678901";
+String apiKey = "1234567";
 
 void sendMessage(String message){
 

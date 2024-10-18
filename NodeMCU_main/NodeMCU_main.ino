@@ -10,8 +10,8 @@ bool tempAlert = false;
 bool weightLossAlert = false;
 
 // Your WiFi credentials
-const char* ssid = "iPhone-Panos";
-const char* password = "543210123";
+const char* ssid = "Your WiFi name";
+const char* password = "Your WiFi password";
 
 void Wifi_init()
 {
